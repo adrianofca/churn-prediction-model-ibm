@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.pyc
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Banco de dados local do MLflow
+mlruns/
+mlruns.db
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Cache de testes/notebooks
+.pytest_cache/
+.ipynb_checkpoints/
+
+# MLflow local (banco de tracking, não necessário para rodar o projeto)
+mlflow.db
+
+# Variáveis de ambiente / segredos
+.env
+*.env
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
